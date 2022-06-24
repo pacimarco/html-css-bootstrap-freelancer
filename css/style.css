@@ -1,9 +1,42 @@
-.mc_li_header{
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
+:root{
+--ms_background_color: #2c3e51;
+--ms_bc_prymary: rgb(33, 177, 138);
 }
 
-.mc_li_header a{
-    text-decoration: none;
+.ms_navbar{
+    background-color: var(--ms_background_color);
+}
+
+.ms_bc_prymary{
+    background-color: var(--ms_bc_prymary);
+}
+
+.section-1 img{
+    width: 20%;
+}
+
+.section-2 img{
+    width: 100%;
+    
+}
+
+.ms_btn_prymary{
+    background-color: var(--ms_bc_prymary);
+    
+}
+
+    
+.ms_color_prymary{
+    color: var(--ms_bc_prymary);
+}
+
+.ms_hr{
+    display: inline-block;
+    width: 60px;
+   
+    
+}
+
+.ms_footer_top{
+    background-color: #446690;
 }
