@@ -55,6 +55,12 @@
     
 }
 
+header li .nav-item a:hover{ /*?????????* questo e il + in hover*/
+    opacity:  0.5;
+    color: green;
+}
+
+
 .ms_pos_relative{
     position: relative;
 }
